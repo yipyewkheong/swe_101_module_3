@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  position: absolute;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+caption {
+  text-align: center;
+  color: #000;
+}
+.highlight {
+  background-color: yellow;
+}
+tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+/* UPDATE */
+tr:hover,
+.highlight:hover {
+  background-color: #ddd;
+}
+td:nth-of-type(2) {
+  text-align: center;
+}

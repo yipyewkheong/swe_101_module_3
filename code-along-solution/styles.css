@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+h1,
+p {
+  font-size: 32px;
+  margin: 0;
+}
+p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+.section {
+  width: 640px;
+  border: 2px solid #d0d0d5;
+}
+.table-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+}
+
+.years-container {
+  display: flex;
+  justify-content: flex-end;
+  background: #0a0a23;
+  padding: 8px 4px;
+}
+.years-container span {
+  font-weight: bold;
+  color: #fff;
+  margin-left: 36px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  text-align: left;
+  color: #356eaf;
+  font-size: 24px;
+  margin: 16px 12px;
+}
+
+th {
+  text-align: left;
+  padding: 6px 8px;
+}
+th span {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 12px;
+}
+
+td {
+  vertical-align: top;
+  text-align: right;
+  padding: 6px 4px 0;
+}
+
+tr[class="data"] {
+  background-image: linear-gradient(to bottom, #dfdfe2 50%, white 50%);
+}
+
+tbody td {
+  width: 100vw;
+  min-width: 64px;
+  max-width: 64px;
+}
+
+tr[class="total"] th {
+  padding: 12px 8px 4px;
+}
